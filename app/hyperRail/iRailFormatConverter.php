@@ -8,7 +8,6 @@ use hyperRail\Models\LiveboardItem;
  * Converts the old JSON to objects.
  * @package hyperRail
  */
-
 class iRailFormatConverter {
     /**
      * Converts a list of Liveboard items to an array.

@@ -6,7 +6,7 @@ var irailapp = angular.module('irailapp',
     [
         'ui.bootstrap',
         'ngAnimate',
-        'irailapp.controllers'
+        'irailapp.controllers',
     ]
 );
 
@@ -28,9 +28,3 @@ function GetURLParameter(sParam){
         }
     }
 }
-
-$(function(){
-    if (window.innerWidth > 500){
-        $('#collapseCalendar').addClass('in');
-    }
-});
